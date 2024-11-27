@@ -1,0 +1,146 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeef8; /* Latar belakang pink lembut */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff69b4; /* Warna pink cerah */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-btn .nav-btn {
+    background-color: white;
+    color: #ff69b4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.home-content {
+    flex: 1;
+}
+
+.home-content h1 {
+    color: #ff1493; /* Warna pink gelap */
+}
+
+.btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 50px 20px;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h2 {
+    color: #ff69b4;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 20px;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-content img {
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ff69b4;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+}
